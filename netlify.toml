@@ -1,0 +1,13 @@
+# Dynamisches Taktikboard: die Tafel liegt in "public", die Funktion fürs gemeinsame Lernen in "netlify/functions".
+[build]
+  publish = "public"
+  command = "echo Keine Build-Schritte nötig"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

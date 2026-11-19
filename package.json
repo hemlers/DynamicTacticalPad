@@ -1,0 +1,10 @@
+{
+  "name": "dynamisches-taktikboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "3D-Taktiktafel für Fußballtrainer mit gemeinsamem Lernen über Netlify",
+  "dependencies": {
+    "@netlify/blobs": ">=8.0.0"
+  }
+}
