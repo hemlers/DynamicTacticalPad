@@ -9,6 +9,7 @@ Du brauchst etwa 20 Minuten und musst nichts programmieren. Die Menünamen bei G
 | Datei | Wofür |
 |---|---|
 | `public/index.html` | die Tafel selbst |
+| `public/manifest.webmanifest`, `public/icon-*.png`, `public/logo.svg` | Logo und Angaben, damit man die Tafel als App auf Handy oder Desktop ablegen kann |
 | `netlify/functions/gespuer.mjs` | der kleine Server-Teil für das gemeinsame Lernen |
 | `netlify.toml` | sagt Netlify, wo was liegt |
 | `package.json` | sagt Netlify, welches Zusatzpaket die Funktion braucht |
@@ -54,6 +55,12 @@ Den Link einfach per WhatsApp oder E-Mail schicken. Jeder Trainer:
 - speichert alles in seinem eigenen Browser. Wer den Browserverlauf mit „Website-Daten“ löscht, verliert seine Szenen. Unter ⋯ → **Tafel als HTML speichern** → „Mit meinen Szenen“ macht man sich eine Sicherung.
 
 Gemeinsames Lernen: Wenn ein Trainer Spieler verschiebt, merkt sich die Tafel den Versatz pro Rolle und Situation und schickt nur diese Zahlen an den gemeinsamen Speicher. Alle Tafeln holen sich den Stand beim Öffnen und alle fünf Minuten. Eigenes Gelerntes zählt doppelt so stark wie das der anderen. Unter **Bearbeiten → ⋯ → Gelerntes ansehen** sieht jeder Trainer den Stand und kann „Mit allen Trainern lernen“ ausschalten.
+
+## Als App auf Handy oder Desktop ablegen
+
+- **iPhone/iPad (Safari):** Teilen-Knopf → „Zum Home-Bildschirm“.
+- **Android (Chrome):** Menü ⋮ → „Zum Startbildschirm hinzufügen“ oder „App installieren“.
+- **Laptop (Chrome oder Edge):** In der Adresszeile auf das Symbol „Installieren“ tippen oder Menü → „App installieren“. Die Tafel öffnet sich dann in einem eigenen Fenster mit Logo, ohne Adresszeile.
 
 ## 5. Tafel aktualisieren
 
