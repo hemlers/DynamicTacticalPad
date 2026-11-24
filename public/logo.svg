@@ -1,19 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a8a57"/><stop offset="1" stop-color="#2b6f45"/></linearGradient>
-    <linearGradient id="t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e6e4"/></linearGradient>
-    <clipPath id="c"><rect width="512" height="512" rx="116"/></clipPath>
-  </defs>
-  <g clip-path="url(#c)">
-    <rect width="512" height="512" fill="url(#g)"/>
-    <line x1="-20" y1="150" x2="250" y2="-30" stroke="#ffffff" stroke-opacity=".55" stroke-width="12"/>
-    <ellipse cx="262" cy="350" rx="190" ry="98" fill="#000" opacity=".22"/>
-    <ellipse cx="256" cy="318" rx="176" ry="92" fill="#0d0f0e"/>
-    <rect x="80" y="246" width="352" height="72" fill="#0d0f0e"/>
-    <ellipse cx="256" cy="246" rx="176" ry="92" fill="#1a1c1b"/>
-    <ellipse cx="256" cy="242" rx="146" ry="74" fill="url(#t)"/>
-    <g transform="translate(256 242) scale(1.12 .7) translate(-51 -78)">
-      <path d="M14 34 C 22 4, 84 2, 86 38 C 87 62, 64 72, 44 72 C 70 72, 92 84, 92 110 C 92 148, 24 152, 10 118" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<rect width="1024" height="1024" rx="229" fill="#0a0a0a"/>
+<svg x="0" y="0" width="1024" height="1024" viewBox="1.2 -20.4 206 206">
+<polygon points="56.53,26 164,26 143.47,54 36,54" fill="#ffffff"/>
+<polygon points="67,64 95,64 95,115.82 67,154" fill="#ffffff"/>
+<polygon points="105,64 133,64 105,102.18" fill="#ffffff"/>
+</svg>
 </svg>
